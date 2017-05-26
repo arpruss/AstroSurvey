@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      android:versionCode="16"
+      android:versionCode="17"
       android:smallScreens="true"
       android:normalScreens="true"
       android:largeScreens="true"
       android:anyDensity="true"
-      android:versionName="0.10" package="mobi.omegacentauri.astrosurveys">
+      android:versionName="0.15" package="mobi.omegacentauri.astrosurveys">
 
     <application android:label="AstroSurvey">
 <!--                   android:configChanges="orientation"   -->

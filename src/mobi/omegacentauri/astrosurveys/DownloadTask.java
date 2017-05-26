@@ -2,8 +2,6 @@ package mobi.omegacentauri.astrosurveys;
 
 import java.io.File;
 
-import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
@@ -12,7 +10,6 @@ import android.os.AsyncTask;
 import android.webkit.WebView;
 import android.widget.Toast;
 
-@SuppressLint("SetJavaScriptEnabled")
 public class DownloadTask extends AsyncTask<FOV, Integer, Boolean> {
 	static final String ALADIN_VERSION = "v2"; //v1 or v2
 	//static final String ALADIN_JS_LINK= "http://aladin.u-strasbg.fr/AladinLite/api/v1/aladin.min.js";
