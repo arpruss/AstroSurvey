@@ -1,0 +1,28 @@
+<html><head>
+<meta http-equiv='content-type' content='text/html; charset=UTF-8'>
+<style>
+  body { padding: 0; margin: 0 }
+  html, body, #aladin-lite-div { height: 100% }
+</style>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0'>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+</head>
+<body bgcolor="#000000">
+<!-- <script src="http://code.jquery.com/jquery-1.10.1.min.js" charset="utf-8"></script> -->
+<script src="jquery.js" charset="utf-8"></script>
+
+<div id='aladin-lite-div'></div>
+
+<link rel="stylesheet" href="http://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.css" />
+<link rel="stylesheet" href="override.css" />
+<!-- <script type="text/javascript" src="http://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.js" charset="utf-8"></script> -->
+<script type="text/javascript" src="aladin.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+var aladin = $.aladin('#aladin-lite-div', {survey: 'P/DSS2/color', zoom: [[fovDegrees]], target: '[[ra2000Degrees]] [[dec2000PMDegrees]]'});
+aladin.toggleFullscreen();
+</script>
+</body></html>
+
+
